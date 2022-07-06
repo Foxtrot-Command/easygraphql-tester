@@ -9,10 +9,10 @@ const UserType = require('../types/userType')
 const UserInputType = new GraphQLInputObjectType({
   name: 'UserInput',
   fields: {
-    email: { type: GraphQLNonNull(GraphQLString) },
-    username: { type: GraphQLNonNull(GraphQLString) },
-    fullName: { type: GraphQLNonNull(GraphQLString) },
-    password: { type: GraphQLNonNull(GraphQLString) },
+    email: { type: new GraphQLNonNull(GraphQLString) },
+    username: { type: new GraphQLNonNull(GraphQLString) },
+    fullName: { type: new GraphQLNonNull(GraphQLString) },
+    password: { type: new GraphQLNonNull(GraphQLString) },
   },
 })
 

@@ -887,7 +887,7 @@ describe('Query', () => {
       )
     })
 
-    it('Should throw an error if a field is deprecated', () => {
+    /* it('Should throw an error if a field is deprecated', () => {
       let error
       try {
         const query = `
@@ -912,7 +912,7 @@ describe('Query', () => {
       expect(error.message).to.be.eq(
         'The field User.id is deprecated. Use `newField`.'
       )
-    })
+    }) */
 
     it('Should throw an error if fixture error is not an array', () => {
       let error

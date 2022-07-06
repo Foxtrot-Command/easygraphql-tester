@@ -6,6 +6,7 @@ const {
   findDeprecatedUsages,
   getOperationAST,
 } = require('graphql')
+
 const {
   UniqueOperationNamesRule,
   LoneAnonymousOperationRule,
