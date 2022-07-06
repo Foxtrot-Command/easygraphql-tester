@@ -29,22 +29,22 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@graphql-tools/schema": "^8.5.0",
     "easygraphql-mock": "^0.1.17",
     "easygraphql-parser": "^0.0.15",
-    "graphql-tools": "^4.0.8",
     "lodash.isobject": "^3.0.2"
   },
   "devDependencies": {
     "chai": "^4.3.4",
     "coveralls": "^3.1.0",
-    "graphql": "^15.5.0",
+    "graphql": "^16.5.0",
     "graphql-tag": "^2.11.0",
     "husky": "^3.1.0",
     "mocha": "^6.2.3",
-    "nyc": "^14.0.1",
+    "nyc": "^15.1.0",
     "prettier": "^1.19.1"
   },
   "peerDependencies": {
-    "graphql": "^0.13.0 || ^14.0.0 || ^15.0.0"
+    "graphql": "^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0"
   }
 }
